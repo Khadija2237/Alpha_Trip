@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+*{
+    margin: 0;
+    padding:0; 
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#99ccff, #3385ff);
+    padding: 0;
+
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-family: 'Lexend Zetta', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-nav li a:before{
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 4px solid white;
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+  }
+  .navbar-nav li a:hover:before{
+    right: 0;
+  }
+.fa-bars{
+    color: azure;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none;
+}
+/***********************/
+#banner{
+    background-image: linear-gradient(to right,#99ccff, #3385ff);
+   /* clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+  clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);*/
+  clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+
+  color: #fff;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    border-bottom: 25px solid #136dc27a;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight:600;
+    margin-top:100px ;
+    font-family: 'Playfair Display', serif;
+
+}
+.col-md-6 p{
+    font-family: 'Red Rose', cursive;
+
+}
+.fa-play-circle{
+    font-size:45px;
+    margin: 0px;
+ 
+
+}
+#banner  span{
+   margin-left: 20px;
+   font-family: 'Rowdies', cursive;
+
+}
+#banner a{
+    color:#fff;
+    text-decoration: none;
+ 
+}
+#banner .row .img-fluid{
+    padding-top: 50px;
+}
+/******************************/
+#services{
+    padding: 20px 0;
+}
+.title{
+    font-family: 'Rowdies', cursive;
+    margin-bottom: 50px;
+
+}
+
+.title::after{
+  margin-top: 60px;
+    margin-left:-110px;
+    width: 100px;
+    height: 6px;
+    content: '';
+    border-radius:5px;
+    background-color: #3385ff;
+    opacity: 0.4;
+    position: absolute;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+   
+
+}
+
+.services h4{
+    font-family: 'Rowdies', cursive;
+ padding: 5px;
+ margin-top: 25px;
+}
+.services P{
+    font-family: 'Red Rose', cursive;
+}
+.services::after{
+   margin-top: -15px;
+      margin-left:110px;
+      width: 50px;
+      height: 3px;
+      content: '';
+      border-radius:5px;
+      background-color: #3385ff;
+      opacity: 0.4;
+      position: absolute;
+  }
+  .services::before{
+    margin-top: 215px;
+      margin-left:195px;
+      height: 50px;
+     width: 3px;
+      content: '';
+      border-radius:5px;
+      background-color: #3385ff;
+      opacity: 0.4;
+      position: absolute;
+  }
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#99ccff, #3385ff);
+
+}
+/*************************/
+#about-us{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    clip-path: polygon(100% 89%, 0 100%, 0 12%, 100% 0);
+
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left: 15px;
+}
+#about-us .img-fluid{
+    margin-top: 8%;
+    width: 350px;
+}
+#about-us ul li{
+    margin:10px 0;
+    font-family: 'Red Rose', cursive;
+
+}
+/****************************/
+#testimonials{
+    margin:100px 0;
+}
+
+.testimonials{
+    border-left: 4px solid #3385ff;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    font-family: 'Red Rose', cursive;
+
+  
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+/**********************/
+#social-media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    clip-path: polygon(100% 89%, 0 100%, 0 12%, 100% 0);
+    margin-bottom: 50px;
+
+}
+#social-media p{
+    font-size: 30px;
+    font-family: 'Rowdies', cursive;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+#social-media p::after{
+    margin-top: 60px;
+      margin-left:-110px;
+      width: 100px;
+      height: 6px;
+      content: '';
+      border-radius:5px;
+      background-color: #3385ff;
+      opacity: 0.4;
+      position: absolute;
+  }
+.social-icons svg{
+   
+   margin: 15px;
+    transform: 0.5s;
+}
+.social-icons a{
+    text-decoration: none;
+}
+.social-icons a:hover svg{
+    transform: translateY(-10px);
+}
+/******************************/
+#footer{
+    background-image: linear-gradient(to right,#99ccff, #3385ff);
+    color: #fff;
+    clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);
+   padding-top: 62px;
+   padding-left: 62px;
+
+
+}
+
+.footer-box{
+    padding: 20px;
+    font-family: 'Rowdies', cursive;
+
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#99ccff, #3385ff);
+
+}
+
+.contact{
+    padding-top: 25px;
+}
+.contact p b{
+    font-size: 20px;
+}
+.copyright{
+    margin-bottom: 0;  
+      font-family: 'Rowdies', cursive;
+
+}
